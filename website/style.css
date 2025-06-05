@@ -35,3 +35,16 @@ section {
   padding-left: 1.5em;
 }
 
+.product-images {
+  display: flex;
+  gap: 1em;
+  flex-wrap: wrap;
+}
+
+.product-images img {
+  width: 200px;
+  height: auto;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
